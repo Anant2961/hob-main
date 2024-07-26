@@ -19,7 +19,7 @@ function App() {
       {/* DiscountedBanner */}
       {/* <DiscountedBanner /> */}
       {/* Blog */}
-      <Blog />
+      {/* <Blog /> */}
     </main>
   );
 }
