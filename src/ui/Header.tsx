@@ -10,8 +10,6 @@ import { FaChevronDown } from "react-icons/fa";
 import { FiShoppingBag, FiStar, FiUser } from "react-icons/fi";
 import { IoClose, IoSearchOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import { logo } from "../assets";
-
 import Container from "./Container";
 import { config } from "../../config";
 import { getData } from "../lib";
