@@ -1,7 +1,6 @@
-import { ProductProps } from "../../type";
 import { store } from "../lib/store";
 
-const CheckoutBtn = ({ products }: { products: ProductProps[] }) => {
+const CheckoutBtn = () => {
   const { currentUser } = store();
   // const publishableKey =
   //   "pk_test_51PWdLHKMztBLVeWcnAmD76Kho5WePBJleYTv7IIBk6TiAwmEL8TjP7CenwBI2rFHVnBYT0LIr6IR7WqkYijqtfrF00W96lGlPV";
