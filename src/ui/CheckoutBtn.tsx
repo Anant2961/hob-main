@@ -1,7 +1,5 @@
-import { loadStripe } from "@stripe/stripe-js";
 import { ProductProps } from "../../type";
 import { store } from "../lib/store";
-import { config } from "../../config";
 
 const CheckoutBtn = ({ products }: { products: ProductProps[] }) => {
   const { currentUser } = store();
